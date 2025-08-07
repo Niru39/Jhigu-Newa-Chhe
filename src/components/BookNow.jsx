@@ -154,7 +154,7 @@ function BookNow() {
                                 value={formData.fullname}
                                 onChange={handleChange}
                                 placeholder="Enter your full name"
-                                required
+                                required 
                             />
                         </div>
 
