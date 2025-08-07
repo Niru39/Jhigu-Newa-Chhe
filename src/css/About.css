@@ -1,0 +1,503 @@
+.abouthero-section {
+  position: relative;
+  margin-top:80px;
+  width:100%;
+  height: 90vh;
+  background-image: url('/images/1.png'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items:last baseline;
+  justify-content: center;
+  color: white;
+}
+
+
+.about-section {
+  padding: 20px 40px;
+  max-width: 1400px;
+  
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about-container img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h1 {
+  color: #c94c1e;
+  margin: 10px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.about-content p {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+
+.mission-section {
+  padding: 20px 40px;
+   max-width: 1400px;
+  
+}
+
+.mission-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: center;
+ 
+  margin: 0 auto;
+}
+
+.mission-container img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-content h1 {
+  color: #c94c1e;
+  margin: 10px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.mission-content p {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.vision-section {
+  padding: 20px 40px;
+   max-width: 1400px;
+  
+}
+
+
+.vision-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.vision-container img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.vision-content h1 {
+  color: #c94c1e;
+  margin: 10px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align :left;
+  text-transform: capitalize;
+}
+
+
+.vision-content p {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: left;
+
+}
+
+.value-section {
+  padding: 20px 40px;
+   max-width: 1400px;
+  
+}
+
+.value-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: center;
+ 
+  margin: 0 auto;
+}
+
+.value-container img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.value-content h1 {
+  color: #c94c1e;
+  margin: 10px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.value-content li {
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.team-section{
+    padding: 20px 40px;
+}
+
+.team-section h1{
+  font-size: 40px;
+  color:#c94c1e;
+  align-self: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.team-item img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #c94c1e;
+}
+
+.team-item h2{ 
+    text-transform: capitalize;
+    margin: 5px 0px;
+    color:#c94c1e;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    
+
+}
+
+.team-item p{
+    margin: 5px 0px;
+    color:#000;
+    font-size: 15px;
+    line-height:30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.aboutgallery-section {
+  padding: 20px 40px;
+  
+}
+
+.aboutgallery-container {
+  display: grid;
+  grid-template-columns:  1fr auto;
+  gap: 40px;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #c94c1e;
+  border-radius: 10px;
+}
+.aboutgallery-content{
+    padding-left: 10px;
+    margin-top: 40px;
+    
+}
+.aboutgallery-content h1 {
+  color: white;
+  margin: 10px 0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+
+.aboutgallery-content button {
+  background-color: #C44212;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.aboutgallery-content button:hover {
+  background-color: #4a170b;
+}
+
+.aboutimage-slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.aboutimage-slide {
+  display: flex;
+  width: 100%;; 
+  height: 100%;
+  animation: slide 9s infinite ;
+}
+
+.aboutimage-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0;
+}
+
+@keyframes slide {
+  0%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1024px) {
+  .about-section,
+  .mission-section,
+  .vision-section,
+  .value-section,
+  .aboutgallery-section,
+  .team-section {
+    padding: 15px 20px;
+    max-width: 100%;
+  }
+
+  .about-container,
+  .mission-container,
+  .vision-container,
+  .value-container,
+  .team-content {
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .about-content h1,
+  .mission-content h1,
+  .vision-content h1,
+  .value-content h1,
+  .aboutgallery-content h1,
+  .team-section h1 {
+    font-size: 32px;
+  }
+
+  .about-content p,
+  .mission-content p,
+  .vision-content p,
+  .value-content li,
+  .team-item p {
+    font-size: 14px;
+  }
+
+  .team-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .aboutgallery-content {
+    margin-top: 30px;
+    padding-left: 10px;
+    max-width: 700px;
+  }
+
+  .aboutgallery-content button {
+    padding: 10px 25px;
+    font-size: 0.95rem;
+  }
+
+  .aboutimage-slider {
+    max-width: 100%;
+    height: 280px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-section,
+  .mission-section,
+  .vision-section,
+  .value-section,
+  .aboutgallery-section,
+  .team-section {
+    padding: 10px 15px;
+  }
+
+  .about-container,
+  .mission-container,
+  .vision-container,
+  .value-container,
+  .team-content {
+    gap: 15px;
+  }
+
+  .about-content h1,
+  .mission-content h1,
+  .vision-content h1,
+  .value-content h1,
+  .aboutgallery-content h1,
+  .team-section h1 {
+    font-size: 26px;
+  }
+
+  .about-content p,
+  .mission-content p,
+  .vision-content p,
+  .value-content li,
+  .team-item p {
+    font-size: 13px;
+  }
+
+  .team-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-item img {
+    width: 140px;
+    height: 170px;
+  }
+  .aboutgallery-content{
+    max-width: 300px;
+  }
+
+  .aboutgallery-content button {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .aboutimage-slider {
+    height: 220px;
+  }
+}
+
+
+@media (max-width: 480px) {
+ .about-container,
+ .mission-container,
+ .value-container,
+ .vision-container,
+  .aboutgallery-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+     .aboutgallery-content{
+    grid-template-columns: 1fr auto;
+    text-align: left;
+  }
+  
+
+  .aboutgallery-content h1 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .aboutgallery-content button {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+
+  .aboutimage-slider {
+    height: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+   .about-container,
+ .mission-container,
+ .value-container,
+ .vision-container,
+  .aboutgallery-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+  }
+  .aboutgallery-content{
+    grid-template-columns: 1fr auto;
+  }
+  .aboutgallery-content h1 {
+    font-size: 20px;
+  }
+
+  .aboutgallery-content button {
+    padding: 10px 15px;
+    font-size: 0.85rem;
+  }
+
+  .aboutimage-slider {
+    height: 180px;
+  }
+
+  .team-content {
+    grid-template-columns: 1fr;
+  }
+
+  .team-item img {
+    width: 120px;
+    height: 150px;
+  }
+}
+
+
+
+
+
+
+

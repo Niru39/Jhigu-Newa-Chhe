@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.body{
+     background: white;
+}
+.navbar {
+  width: 100%;
+  top:0;
+  background: white; 
+  position:relative;
+  z-index: 1000;
+  height: 40px;
+}
+
+.navbar-container {
+ max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+   width: 100px;
+  height:auto;
+  object-fit: contain;
+  padding-top: 20px;
+}
+
+.navbar-toggle {
+  width: 40px;
+  height: 40px;
+  background: none;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  display:none;
+  color: #c94c1e;
+}
+
+.nav-links {
+
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding:10px;
+    color: #c94c1e;
+
+}
+.nav-link:hover{
+    color:#ca887a;
+}
+
+/* Tablets and below */
+@media (max-width: 1024px) {
+  .nav-link {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile devices: 768px and below */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 15px 20px;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-links.open {
+    display: flex;
+    margin-top:20px ;
+  }
+
+  .nav-link {
+    padding: 12px 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .logo {
+    width: 80px;
+    padding-top: 10px;
+  }
+}
+
+/* Phones: 480px and below */
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 10px 15px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 65px;
+  }
+}
+
+/* Small phones: 320px and below */
+@media (max-width: 320px) {
+  .navbar-container {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    width: 60px;
+    padding-top: 5px;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 8px 0;
+  }
+
+  .navbar-toggle {
+    font-size: 22px;
+  }
+}

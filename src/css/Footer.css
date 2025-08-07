@@ -1,0 +1,151 @@
+.footer {
+    background-color: #c94c1e;
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #fffbe0;
+    font-size: 1.5rem;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+    color: #fff;
+    font-size: 0.95rem;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Logo Section */
+.footer-section.logo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.logo-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.logo-content h1 {
+    font-size: 1.5rem;
+    color: #fffbe0;
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.logo-text {
+    text-align: left;
+    width: 100%;
+
+}
+
+.logo-text p {
+    font-size: 0.95rem;
+    color: #fff;
+    line-height: 1.6;
+    margin: 4px 0;
+}
+
+
+
+/* Newsletter Form */
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+.newsletter-form button {
+    padding: 10px;
+    background-color: #C44212;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #c94c1e;
+    border: 1px solid white;
+    
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(2);
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 1.2rem;
+    color: #ffe6d4;
+}
